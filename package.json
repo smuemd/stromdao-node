@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "prestart": "ipfs daemon --enable-pubsub-experiment & sleep 4",
-    "test": "node_modules/.bin/mocha --harmony -w"
+    "test": "node_modules/.bin/mocha --harmony -w",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -39,6 +41,8 @@
     "orbit-db": "^0.17.3",
     "request": "^2.81.0",
     "stromdao-discovergy": "^0.0.7",
-    "web3": "^0.18.4"
-  }
+    "web3": "^0.18.4",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
