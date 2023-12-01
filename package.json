@@ -25,7 +25,7 @@
   "homepage": "https://github.com/energychain/stromdao-node#readme",
   "dependencies": {
     "end-of-stream": "^1.4.0",
-    "ethers": "^2.0.0",
+    "ethers": "^3.0.0",
     "ethers-wallet": "^1.0.11",
     "express": "^4.15.2",
     "h2o2": "^5.4.0",
@@ -36,7 +36,7 @@
     "mocha": "^3.2.0",
     "node-persist": "^2.0.10",
     "oauth": "^0.9.15",
-    "orbit-db": "^0.17.3",
+    "orbit-db": "^0.18.11",
     "request": "^2.81.0",
     "stromdao-discovergy": "^0.0.7",
     "web3": "^0.18.4"
